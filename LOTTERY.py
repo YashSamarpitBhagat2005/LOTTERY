@@ -2,8 +2,8 @@ import time
 import random
 
 users = []
-regtime = 3600
-extime = 1800
+regtime = 36
+extime = 18
 logfile = "lotterylog.txt"
 
 def save():

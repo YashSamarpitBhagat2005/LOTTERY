@@ -43,7 +43,7 @@ def register():
         print(f"📢 Users: {len(users)}\n")
 
         if len(users) < 5 and not extended and time.time() - start >= regtime:
-            print("\n⚠️ Extending registration by 30 min.")
+            print("\n⚠️ Extending registration.")
             extended = True
             start += extime
 
